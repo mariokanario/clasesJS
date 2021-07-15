@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+
+/*Fundamentos de Javascript para trabajar con React, Vue, Angular, etc.*/
+
+// var
+// Se puede re inicializar
+// se puede re asignar
+// su contexto es de función
+// global
+
+// let
+// NO se puede re inicializar
+// se pude re asignar
+// su contexto es de bloque
+
+// const
+// NO se pude re inicializar
+// NO se pude re asignar
+// NO es inmutable
+
+// var pokemonType = 'grass'
+// pokemonType = 'grass'
+
+
+////////////////////////////EJEMPLO 1/////////////////////////
+/*var edad = 10
+if(true){
+    var edad = 20
+    console.log(edad) // 20
+}
+console.log(edad) // 20
+
+let edad = 10
+    if(true){
+        let edad = 20
+        console.log(edad) // 20
+    }
+console.log(edad) // 10
+*/
+
+
+////////////////////////////EJEMPLO 2/////////////////////////
+/*const edad = 10
+const edad = 20 // SyntaxError
+
+const edad = 10
+edad = 20 // Error: "edad" is read-only
+
+const edad = 10
+    if(true){
+        const edad = 20
+        console.log(edad) // 20
+    }
+console.log(edad) // 10
+*/
+
+
+////////////////////////////EJEMPLO 3/////////////////////////
+/*var edades = [10,20,30]
+var edades = [10,20,30,40]
+console.log(edades)
+
+let edades = [10,20,30]
+edades = [10,20,30,40]
+console.log(edades)
+
+const edades = [10,20,30]
+edades = [10,20,30,40]
+console.log(edades)
+
+const edades = [10,20,30]
+edades.push(40)
+console.log(edades)
+
+const persona = {
+  nombre: 'juanito',
+  edad: 20
+}
+
+persona.edad = 21
+persona.pais = 'México'
+
+console.log(persona)
+*/
+
+</script>
+</body>
+</html>
